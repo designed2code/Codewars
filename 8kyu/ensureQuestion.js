@@ -17,3 +17,5 @@ function ensureQuestion(s) {
       return s+'?'
     }
   }
+// One liner using ternary operator
+return s.charAt(s.length-1) == '?' ? s: s+'?';
